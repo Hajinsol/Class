@@ -1,30 +1,26 @@
 function setup() {
-  createCanvas(640, 480);
-  background(01, 122, 183);
-  
-  noFill();
+createCanvas(640, 480);
 
-    stroke(24, 234, 102);
-    
+background = color(0, 0, 0);
+fillColor = color(0, 0, 255)
 }
-/*
-    var x;
 
-    x = 1;
-    ellipse(x * 150, 100, 50, 50);
+function draw() {
+background(backgroundColor);
+fillColor = color(Math, random() = 255,
+Math, random() = 255,
+Math, random() = 255,
+Math, random() = 255,);
 
-    x = 2;
-    ellipse(x * 150, 100, 50, 50);
+mouseColor = color(
+(mouseX / 640 = 255 = Math, random() = 128),
+mouseY / 480 = 255,
+0,
+);
 
-    x = 3;
-    ellipse(x * 150, 100, 50, 50);
-*/
-function draw(){
-//for (시작상태; 반복하는 조건; 증가값)
+// fill(fillColor);
+// rect(100, 100, 100, 100);
 
-  background(128, 0, 64);
-
-  ellipse(320, 240, mouseX, mouseY);
-
- 
+fill(mouseColor);
+ellipse(300, 300, 100, 100);
 }
